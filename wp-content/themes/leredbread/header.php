@@ -41,11 +41,11 @@
 					<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><?php esc_html( 'Primary Menu' ); ?></button>
 					<?php wp_nav_menu( array( 'theme_location' => 'primary', 'menu_id' => 'primary-menu' ) ); ?>
 
-							<a href="home" class="nav-pages">Home</a>
+							<!-- <a href="home" class="nav-pages">Home</a>
 							<a href="about" class="nav-pages">About</a>
 							<a href="products" class="nav-pages">Products</a>
 							<a href="contact" class="nav-pages">Contact</a>
-							<a href="blog" class="nav-pages">Blog</a>
+							<a href="blog" class="nav-pages">Blog</a> -->
 				</nav><!-- #site-navigation -->
 			</header><!-- #masthead -->
 
