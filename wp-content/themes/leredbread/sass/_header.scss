@@ -7,7 +7,7 @@
   justify-content: flex-start;
   width: 100%;
   box-shadow: 0 2px 3px 0 rgba(150,150,150,.25);
-  padding-left: 14rem;
+  padding-left: 13rem;
 }
 
 //pads the nav
@@ -26,6 +26,20 @@
   left: 13rem;
 }
 
+.social-media-icons {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  justify-content: flex-end;
+  margin-right: 11.9rem;
+  margin-top: 3rem;
+
+  li {
+    padding-left: 1.7rem;
+    color: grey;
+  }
+
+} //ends social media icons
 // this controls the top half portion of the header
 .site-header {
   padding-top: 1.3rem;
@@ -40,16 +54,12 @@
   padding-bottom: 1.4rem;
 }
 
-.social-media-icons {
-  display: flex;
-  flex-wrap: wrap;
-  list-style: none;
-  justify-content: flex-end;
-  margin-right: 11.9rem;
-  margin-top: 3rem;
+// search bar
 
-  li {
-    padding-left: 1.7rem;
-    color: grey;
-  }
-} //ends social media icons
+.search-form {
+  position: absolute;
+  top: 10rem;
+  right: 0px;
+  padding-right: 11rem;
+  border: 0;
+}

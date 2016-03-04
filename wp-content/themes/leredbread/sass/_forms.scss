@@ -62,8 +62,13 @@ textarea {
 }
 
 
-.search-form {
-	position: absolute;
-	top: 0px;
-	right: 0px;
+
+// overriding values written above by way of specificity
+input[type=search] {
+
+	border: none;
+}
+
+fieldset {
+	border: none;
 }

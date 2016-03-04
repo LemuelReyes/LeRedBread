@@ -403,10 +403,11 @@ textarea {
   padding-left: 3px;
   width: 100%; }
 
-.search-form {
-  position: absolute;
-  top: 0px;
-  right: 0px; }
+input[type=search] {
+  border: none; }
+
+fieldset {
+  border: none; }
 
 /*--------------------------------------------------------------
 # Navigation
@@ -656,7 +657,7 @@ ul {
           justify-content: flex-start;
   width: 100%;
   box-shadow: 0 2px 3px 0 rgba(150, 150, 150, 0.25);
-  padding-left: 14rem; }
+  padding-left: 13rem; }
 
 .nav-pages {
   border-left: 0.25px solid #e1e1e1;
@@ -669,16 +670,6 @@ ul {
   position: absolute;
   top: 4rem;
   left: 13rem; }
-
-.site-header {
-  padding-top: 1.3rem;
-  background-color: #fafafa; }
-
-.site-branding {
-  background-color: #fff;
-  border: 1px solid #e1e1e1, 0;
-  margin-top: 1rem;
-  padding-bottom: 1.4rem; }
 
 .social-media-icons {
   display: -webkit-flex;
@@ -696,3 +687,20 @@ ul {
   .social-media-icons li {
     padding-left: 1.7rem;
     color: grey; }
+
+.site-header {
+  padding-top: 1.3rem;
+  background-color: #fafafa; }
+
+.site-branding {
+  background-color: #fff;
+  border: 1px solid #e1e1e1, 0;
+  margin-top: 1rem;
+  padding-bottom: 1.4rem; }
+
+.search-form {
+  position: absolute;
+  top: 10rem;
+  right: 0px;
+  padding-right: 11rem;
+  border: 0; }
