@@ -1,0 +1,55 @@
+.container {
+  width: 1024px;
+}
+// controls the flex on the nav bar
+.main-navigation {
+  display: flex;
+  justify-content: flex-start;
+  width: 100%;
+  box-shadow: 0 2px 3px 0 rgba(150,150,150,.25);
+  padding-left: 14rem;
+}
+
+//pads the nav
+.nav-pages {
+  border-left: 0.25px solid #e1e1e1;
+  border-right: 0.25px solid #e1e1e1;
+  border-bottom: 0.8px solid #e1e1e1;
+  padding: 0.7rem 1.6rem;
+}
+
+// main header logo
+.header-logo {
+  width: 300px;
+  position: absolute;
+  top: 4rem;
+  left: 13rem;
+}
+
+// this controls the top half portion of the header
+.site-header {
+  padding-top: 1.3rem;
+  background-color: #fafafa;
+}
+
+// the bottom half of the header
+.site-branding {
+  background-color: #fff;
+  border: 1px solid #e1e1e1, 0;
+  margin-top: 1rem;
+  padding-bottom: 1.4rem;
+}
+
+.social-media-icons {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  justify-content: flex-end;
+  margin-right: 11.9rem;
+  margin-top: 3rem;
+
+  li {
+    padding-left: 1.7rem;
+    color: grey;
+  }
+} //ends social media icons
