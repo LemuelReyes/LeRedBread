@@ -1,5 +1,3 @@
-# RED Starter
+# Le Red Bread
 
-A WordPress starter theme for RED Academy students, forked from Underscores.
-
-Download me, add me to your `wp-content` directory, rename me, and and start themin'!
+A WordPress starter theme for RED Academy students. Utilizing PHP.  
