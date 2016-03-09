@@ -664,16 +664,16 @@ ul {
   box-shadow: 0 2px 3px 0 rgba(150, 150, 150, 0.25);
   padding-left: 13rem; }
 
-.menu ul li {
+.main-navigation ul li {
   border-left: 0.25px solid #e1e1e1;
   border-right: 0.25px solid #e1e1e1;
   border-bottom: 0.8px solid #e1e1e1;
-  padding: 0.7rem 1.9rem; }
+  padding: 0.6rem 1.6rem; }
 
 .header-logo {
   width: 300px;
   position: absolute;
-  top: 3.8rem;
+  top: 5.8rem;
   left: 12.7rem; }
 
 .social-media-icons {
@@ -705,7 +705,11 @@ ul {
 
 .search-form {
   position: absolute;
-  top: 10rem;
+  top: 12rem;
   right: 0px;
   padding-right: 11rem;
   border: 0; }
+
+.search-submit {
+  background: transparent;
+  border: none; }

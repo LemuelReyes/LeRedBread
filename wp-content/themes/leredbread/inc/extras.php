@@ -62,7 +62,9 @@ function lrb_archive_title( $title ) {
 	if ( is_post_type_archive( array( 'product' ) ) ) {
 			$title = "Our Products Are Made Fresh Daily";
 		} elseif ( is_tax( 'product-type' )	) {
-			$title = '??????????';
+			global $wp_query;
+	    $term = $wp_query->get_queried_object();
+	    $title = $term->name;
 		}
 			return $title;
 }
