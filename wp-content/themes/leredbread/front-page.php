@@ -11,36 +11,29 @@ get_header(); ?>
 		<main id="main" class="site-main" role="main">
 
 				<section class="hero-banner">
-					<span>Baked to perfection</span>
+					<span class="hero-text">Baked to perfection.</span>
 				</section>
 
-
-				<section class="product-info">
-				
 					<?php
 					$terms= get_terms( 'product-type', $args);
 					?>
-					<div class="product-flex">
-						<div class="product-container">
-					<?php if ( ! empty($terms) ) : ?>
 
-					<?php foreach ($terms as $term) : ?>
+					<section class="product-info">
+            <div class="product-flex">
+                <?php if ( ! empty( $terms ) ) : ?>
+                    <?php foreach ($terms as $term) : ?>
+                            <div class="product-container">
+                                <img src="<?php echo get_template_directory_uri() . '/images\/' . $term->slug; ?>.png" alt="" />
+                                <h3><?php echo $term->name; ?></h3>
+                                <p>
+                                    <?php echo $term->description; ?> <a href="<?php echo get_term_link( $term ); ?>">See More...</a>
+                                </p>
+                            </div>
+                    <?php endforeach; ?>
+            		<?php endif; ?>
+        		</div>
+    		</section>
 
-
-								<img src="<?php echo get_template_directory_uri() . '/images\/'	. $term->slug; ?>.png" alt="" />
-
-								<h3>
-									<?php echo $term->name; ?>
-								</h3>
-
-								<p>
-									<?php echo $term->description; ?>
-									<a href="<?php echo get_term_link( $term );  ?>">See More...</a>
-								</p>
-					<?php endforeach; ?>
-					<div>
-				</div>
-					<?php endif; ?>
 
       		<?php
 			          $args = array( 'post_type' => 'post',
