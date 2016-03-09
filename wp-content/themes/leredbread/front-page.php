@@ -10,13 +10,22 @@ get_header(); ?>
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main" role="main">
 
+				<section class="hero-banner">
+					<span>Baked to perfection</span>
+				</section>
+
+
+				<section class="product-info">
+				
 					<?php
 					$terms= get_terms( 'product-type', $args);
 					?>
-
+					<div class="product-flex">
+						<div class="product-container">
 					<?php if ( ! empty($terms) ) : ?>
 
 					<?php foreach ($terms as $term) : ?>
+
 
 								<img src="<?php echo get_template_directory_uri() . '/images\/'	. $term->slug; ?>.png" alt="" />
 
@@ -28,9 +37,9 @@ get_header(); ?>
 									<?php echo $term->description; ?>
 									<a href="<?php echo get_term_link( $term );  ?>">See More...</a>
 								</p>
-
 					<?php endforeach; ?>
-
+					<div>
+				</div>
 					<?php endif; ?>
 
       		<?php
@@ -59,7 +68,7 @@ get_header(); ?>
 
           <?php endforeach; wp_reset_postdata(); ?>
 		</main><!-- #main -->
-		
+
 	</div><!-- #primary -->
 
 <?php get_footer(); ?>
