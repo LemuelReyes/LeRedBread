@@ -653,6 +653,17 @@ ul {
 .product-info {
   max-width: 1024px; }
 
+.flex-middle {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center; }
+
+.container {
+  max-width: 1024px; }
+
 .container {
   width: 1024px; }
 
@@ -840,3 +851,6 @@ footer {
   width: 200px;
   overflow: hidden;
   position: relative; }
+
+.about-column-block {
+  max-width: 27.5rem; }

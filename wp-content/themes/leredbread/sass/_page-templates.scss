@@ -11,3 +11,14 @@ ul {
 .product-info {
   max-width: 1024px;
 }
+
+//helper classes
+
+.flex-middle {
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  max-width: 1024px;
+}
