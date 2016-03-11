@@ -719,13 +719,29 @@ ul {
   box-shadow: none;
   color: grey; }
 
+footer {
+  background-color: #222222;
+  height: 33vh; }
+
+.column-block {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-justify-content: space-around;
+      -ms-flex-pack: distribute;
+          justify-content: space-around; }
+
+.footer-logo {
+  width: 300px; }
+
 .product-info {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
   -webkit-justify-content: center;
       -ms-flex-pack: center;
-          justify-content: center; }
+          justify-content: center;
+  margin: 0 auto; }
 
 .product-flex {
   display: -webkit-flex;

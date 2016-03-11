@@ -10,10 +10,12 @@ get_header(); ?>
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main" role="main">
 
+				<!--  HERO BANNER -->
 				<section class="hero-banner">
 					<span class="hero-text">Baked to perfection.</span>
 				</section>
 
+				<!-- CATEGORIES  -->
 					<?php
 					$terms= get_terms( 'product-type', $args);
 					?>
@@ -34,8 +36,9 @@ get_header(); ?>
         		</div>
     		</section>
 
+				<!-- BLOG POSTS  -->
 
-      		<?php
+					<?php
 			          $args = array( 'post_type' => 'post',
 			                         'posts_per_page' => 4
 			                       );
