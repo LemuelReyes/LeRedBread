@@ -687,7 +687,7 @@ ul {
 .header-logo {
   width: 300px;
   position: absolute;
-  top: 3.8rem;
+  top: 6rem;
   left: 12.7rem; }
 
 .social-media-icons {
@@ -719,7 +719,7 @@ ul {
 
 .search-form {
   position: absolute;
-  top: 10rem;
+  top: 12rem;
   right: 0px;
   padding-right: 11rem;
   border: 0; }
