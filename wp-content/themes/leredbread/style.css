@@ -687,7 +687,7 @@ ul {
 .header-logo {
   width: 300px;
   position: absolute;
-  top: 3.8rem;
+  top: 6rem;
   left: 12.7rem; }
 
 .social-media-icons {
@@ -719,7 +719,7 @@ ul {
 
 .search-form {
   position: absolute;
-  top: 10rem;
+  top: 12rem;
   right: 0px;
   padding-right: 11rem;
   border: 0; }
@@ -852,13 +852,22 @@ footer {
   overflow: hidden;
   position: relative; }
 
+<<<<<<< HEAD
 .about-section-wrapper {
+=======
+.about-section {
+>>>>>>> gh-pages
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
   -webkit-justify-content: space-between;
       -ms-flex-pack: justify;
+<<<<<<< HEAD
           justify-content: space-between; }
+=======
+          justify-content: space-between;
+  margin: 0 auto; }
+>>>>>>> gh-pages
 
 .about-column-block {
   -webkit-flex-basis: 47%;
