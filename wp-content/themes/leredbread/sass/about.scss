@@ -1,3 +1,11 @@
+
+
+.about-section-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
 .about-column-block {
-  max-width: 27.5rem;
+  flex-basis: 47%;
+  max-width: 30rem;
 }

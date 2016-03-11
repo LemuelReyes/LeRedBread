@@ -9,11 +9,10 @@ get_header();
 
   <div id="primary" class="content-area">
     <main id="main" class="site-main" role="main">
-
       <h2 class="flex-text-center"><?php echo CFS()->get( 'tagline' ); ?></h2>
       <p class="flex-text-center">We are a team of creative and talented individuals who love making delicious treats.</p>
 
-      <div class="about-section">
+      <div class="about-section-wrapper">
       <!-- Team section  -->
       <div class="about-column-block">
       <img src="<?php bloginfo( 'template_url' ); ?>/images/team.jpg" alt="Le Bread Team picture" class="team-picture"/>
@@ -36,7 +35,6 @@ get_header();
       <?php echo CFS()->get( 'our_story_copy' ); ?>
       </div>
       </section>
-
     </main>
   </div>
 

@@ -852,5 +852,16 @@ footer {
   overflow: hidden;
   position: relative; }
 
+.about-section-wrapper {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between; }
+
 .about-column-block {
-  max-width: 27.5rem; }
+  -webkit-flex-basis: 47%;
+      -ms-flex-preferred-size: 47%;
+          flex-basis: 47%;
+  max-width: 30rem; }
