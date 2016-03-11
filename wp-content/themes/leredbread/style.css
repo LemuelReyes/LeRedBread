@@ -734,6 +734,14 @@ footer {
 .footer-logo {
   width: 300px; }
 
+.flex-text-center {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center; }
+
 .product-info {
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -776,3 +784,59 @@ footer {
   color: white;
   font-size: 5rem;
   text-transform: uppercase; }
+
+.products-flex {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center; }
+
+.products-bar {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border: 1px lightgrey solid;
+  background-color: #FAFAFA;
+  height: 5em;
+  width: 75%; }
+
+.products-button {
+  background-color: #400c0d;
+  height: 3rem;
+  width: 11.2rem;
+  border-radius: 0.2rem;
+  box-shadow: none;
+  color: white;
+  font-size: 1rem;
+  margin-left: 3rem; }
+
+.hr-symbol {
+  width: 20%; }
+
+.grey-dot {
+  width: 0.8rem;
+  height: 0.8rem;
+  border-radius: 0.4rem;
+  background-color: #E1E1E1;
+  margin: 0 auto;
+  position: relative;
+  top: -1.9rem; }
+
+.flex-post {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex; }
+
+.thumbnail-container {
+  height: 200px;
+  width: 200px;
+  overflow: hidden;
+  position: relative; }

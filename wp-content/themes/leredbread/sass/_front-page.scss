@@ -1,3 +1,10 @@
+//helper class
+
+.flex-text-center {
+  display: flex;
+  justify-content: center;
+}
+
 .product-info {
    display: flex;
    justify-content: center;
@@ -30,4 +37,61 @@
   color: white;
   font-size: 5rem;
   text-transform: uppercase;
+}
+
+// product bar
+
+.products-flex {
+  display: flex;
+  justify-content: center;
+}
+
+.products-bar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px lightgrey solid;
+  background-color: #FAFAFA;
+  height: 5em;
+  width: 75%;
+}
+
+.products-button {
+ background-color: #400c0d;
+ height: 3rem;
+ width: 11.2rem;
+ border-radius: 0.2rem;
+ box-shadow: none;
+ color: white;
+ font-size: 1rem;
+ margin-left:  3rem;
+}
+
+
+// our latest news section
+
+.hr-symbol {
+  width: 20%;
+}
+
+.grey-dot {
+  width: 0.8rem;
+  height: 0.8rem;
+  border-radius: 0.4rem;
+  background-color: #E1E1E1;
+  margin: 0 auto;
+  position: relative;
+  top: -1.9rem;
+}
+
+
+.flex-post {
+  display: flex;
+}
+
+.thumbnail-container {
+  height: 200px;
+  width: 200px;
+  overflow: hidden;
+  position: relative;
 }

@@ -36,8 +36,24 @@ get_header(); ?>
         		</div>
     		</section>
 
-				<!-- BLOG POSTS  -->
+			<div class="products-flex">
+				<div class="products-bar">
+					<p>All our products are made fresh daily from locally-sourced ingredients. Our menu is updated frequently.</p>
+					<button type="button" name="button" class="products-button">See Our Products</button>
+				</div>
+			</div>
 
+
+
+				<!-- BLOG POSTS  -->
+				<div class="flex-text-center">
+					<h2>Our Latest News</h2>
+				</div>
+
+				<hr class="hr-symbol" />
+				<div class="grey-dot"></div>
+
+				<div class="flex-post">
 					<?php
 			          $args = array( 'post_type' => 'post',
 			                         'posts_per_page' => 4
@@ -45,11 +61,15 @@ get_header(); ?>
 			          $latest_posts = get_posts( $args ); ?>
 
           <?php foreach ($latest_posts as $post) :  setup_postdata ( $post ); ?>
-	              <!--  pictures  -->
-	              <?php if (has_post_thumbnail() ) : ?>
-	                <?php the_post_thumbnail( 'large' ); ?>
-	              <?php endif; ?>
 
+	              <!--  pictures  -->
+							<ul>
+								<li>
+									<div class="thumbnail-container">
+	              <?php if (has_post_thumbnail() ) : ?>
+	                <?php the_post_thumbnail( 'small' ); ?>
+	              <?php endif; ?>
+									</div>
 	              <!--  title -->
 
 	              <h3>
@@ -61,8 +81,10 @@ get_header(); ?>
           <span class="entry-meta">
                 <?php red_starter_posted_on(); ?> / <?php comments_number( '0 Comments', '1 Comment', '% Comments' ); ?> / <?php red_starter_posted_by(); ?>
           </span>
-
+								</li>
+							</ul>
           <?php endforeach; wp_reset_postdata(); ?>
+				</div>
 		</main><!-- #main -->
 
 	</div><!-- #primary -->
