@@ -33,7 +33,7 @@ get_header();
       <!--  Story Section -->
       <section class="flex-middle">
       <div class="container">
-        <h2 class="flex-text-center">Our Story</h2
+        <h2 class="flex-text-center">Our Story</h2>
       <?php echo CFS()->get( 'our_story_copy' ); ?>
       </div>
       </section>

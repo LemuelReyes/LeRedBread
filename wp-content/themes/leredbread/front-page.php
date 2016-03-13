@@ -53,7 +53,7 @@ get_header(); ?>
 				<hr class="hr-symbol" />
 				<div class="grey-dot"></div>
 
-				<div class="flex-post">
+				<div class="flex-post container">
 					<?php
 			          $args = array( 'post_type' => 'post',
 			                         'posts_per_page' => 4
