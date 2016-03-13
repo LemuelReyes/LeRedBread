@@ -222,6 +222,55 @@ th {
 /*--------------------------------------------------------------
 # Embedded Fonts
 --------------------------------------------------------------*/
+@font-face {
+  font-family: 'Overlock';
+  src: url("../../fonts/Overlock-Black.eot");
+  src: url("../../fonts/Overlock-Black.eot?#iefix") format("embedded-opentype"), url("../../fonts/Overlock-Black.woff") format("woff"), url("../../fonts/Overlock-Black.ttf") format("truetype"), url("../../fonts/Overlock-Black.svg#webfont") format("svg");
+  font-weight: bold;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Overlock';
+  src: url("../../fonts/Overlock-BlackItalic.eot");
+  src: url("../../fonts/Overlock-BlackItalic.eot?#iefix") format("embedded-opentype"), url("../../fonts/Overlock-BlackItalic.woff") format("woff"), url("../../fonts/Overlock-BlackItalic.ttf") format("truetype"), url("../../fonts/Overlock-BlackItalic.svg#webfont") format("svg");
+  font-weight: bold;
+  font-style: italic; }
+
+@font-face {
+  font-family: 'Overlock';
+  src: url("../../fonts/Overlock-Bold.eot");
+  src: url("../../fonts/Overlock-Bold.eot?#iefix") format("embedded-opentype"), url("../../fonts/Overlock-Bold.woff") format("woff"), url("../../fonts/Overlock-Bold.ttf") format("truetype"), url("../../fonts/Overlock-Bold.svg#webfont") format("svg");
+  font-weight: bolder;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Overlock';
+  src: url("../../fonts/Overlock-BoldItalic.eot");
+  src: url("../../fonts/Overlock-BoldItalic.eot?#iefix") format("embedded-opentype"), url("../../fonts/Overlock-BoldItalic.woff") format("woff"), url("../../fonts/Overlock-BoldItalic.ttf") format("truetype"), url("../../fonts/Overlock-BoldItalic.svg#webfont") format("svg");
+  font-weight: bolder;
+  font-style: italic; }
+
+@font-face {
+  font-family: 'Overlock';
+  src: url("../../fonts/Overlock-Italic.eot");
+  src: url("../../fonts/Overlock-Italic.eot?#iefix") format("embedded-opentype"), url("../../fonts/Overlock-Italic.woff") format("woff"), url("../../fonts/Overlock-Italic.ttf") format("truetype"), url("../../fonts/Overlock-Italic.svg#webfont") format("svg");
+  font-weight: normal;
+  font-style: italic; }
+
+@font-face {
+  font-family: 'Overlock';
+  src: url("../../fonts/Overlock-Regular.eot");
+  src: url("../../fonts/Overlock-Regular.eot?#iefix") format("embedded-opentype"), url("../../fonts/Overlock-Regular.woff") format("woff"), url("../../fonts/Overlock-Regular.ttf") format("truetype"), url("../../fonts/Overlock-Regular.svg#webfont") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Overlock';
+  src: url("../../fonts/OverlockSC-Regular.eot");
+  src: url("../../fonts/OverlockSC-Regular.eot?#iefix") format("embedded-opentype"), url("../../fonts/OverlockSC-Regular.woff") format("woff"), url("../../fonts/OverlockSC-Regular.ttf") format("truetype"), url("../../fonts/OverlockSC-Regular.svg#webfont") format("svg");
+  font-weight: normal;
+  font-weight: lighter; }
+
 /*--------------------------------------------------------------
 # Typography
 --------------------------------------------------------------*/
@@ -646,6 +695,28 @@ object {
 /*--------------------------------------------------------------
 # Page Templates
 --------------------------------------------------------------*/
+body {
+  font-size: 16px;
+  color: #222222; }
+
+.red-brand {
+  color: #db272a; }
+
+.brown-brand {
+  color: #400c0d; }
+
+.light-grey-brand {
+  color: #a1a1a1; }
+
+.medium-grey-brand {
+  color: #808080; }
+
+.dark-grey-brand {
+  color: #333333; }
+
+.near-black-brand {
+  color: #222222; }
+
 /* Front page */
 ul {
   list-style: none; }
@@ -792,8 +863,11 @@ footer {
           align-items: center; }
 
 .hero-text {
+  font-family: 'Overlock';
+  font-weight: bold;
+  font-style: normal;
   color: white;
-  font-size: 5rem;
+  font-size: 6rem;
   text-transform: uppercase; }
 
 .products-flex {
