@@ -914,13 +914,6 @@ footer {
   border-bottom: 1px solid #e1e1e1;
   border-top: 1px solid #e1e1e1;
   padding: 3rem 0; }
-  .latest-blogs ul {
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-flex-direction: row;
-        -ms-flex-direction: row;
-            flex-direction: row; }
 
 .hr-symbol {
   width: 20%; }
@@ -934,10 +927,27 @@ footer {
   position: relative;
   top: -1.9rem; }
 
-.flex-post {
+.post-grid {
+  width: 100%;
   display: -webkit-flex;
   display: -ms-flexbox;
-  display: flex; }
+  display: flex;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap; }
+
+.blogpost-block {
+  -webkit-flex: 0 1 25%;
+      -ms-flex: 0 1 25%;
+          flex: 0 1 25%; }
+  .blogpost-block ul {
+    padding: 0rem;
+    margin: 0rem; }
+
+.thumbnail-container {
+  height: 200px;
+  overflow: hidden;
+  position: relative; }
 
 .about-section {
   display: -webkit-flex;

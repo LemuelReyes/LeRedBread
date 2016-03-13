@@ -79,19 +79,15 @@
 
 // our latest news section
 
+//sets the background color for the post section
 .latest-blogs {
   background-color: #fafafa;
   border-bottom: 1px solid #e1e1e1;
   border-top: 1px solid #e1e1e1;
   padding: 3rem 0;
+}
 
-  ul {
-    display: flex;
-    flex-direction: row;
-  }
-
-} //ends latest blogs
-
+// line decoration
 .hr-symbol {
   width: 20%;
 }
@@ -106,14 +102,26 @@
   top: -1.9rem;
 }
 
+// post section
 
-.flex-post {
-  display: flex;
+//controls the picture grid
+.post-grid {
+width: 100%;
+display: flex;
+flex-wrap: wrap;
 }
 
-// .thumbnail-container {
-//   height: 200px;
-//   width: 200px;
-//   overflow: hidden;
-//   position: relative;
-// }
+//controls each block of category
+.blogpost-block {
+flex: 0 1 25%;
+    ul {
+      padding: 0rem;
+      margin: 0rem;
+    }
+}
+
+.thumbnail-container {
+height: 200px;
+overflow: hidden;
+position: relative;
+}

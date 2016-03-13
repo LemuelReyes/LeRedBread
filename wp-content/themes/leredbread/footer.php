@@ -21,7 +21,7 @@
 			<p>
 					<i class="fa fa-phone">
 					<a href="5553434567891">(555) 343 456 7891</a>
-						</p>
+			</p>
 			<p>
 					<span><i class="fa fa-facebook-square"></span>
 					<span><i class="fa fa-twitter-square"></span>
