@@ -831,7 +831,10 @@ footer {
   -webkit-justify-content: center;
       -ms-flex-pack: center;
           justify-content: center;
-  margin: 0 auto; }
+  margin: 0 auto;
+  margin-top: 3rem;
+  max-width: none;
+  width: 74rem; }
 
 .product-flex {
   display: -webkit-flex;
@@ -846,6 +849,9 @@ footer {
   -webkit-flex: 0 1 22%;
       -ms-flex: 0 1 22%;
           flex: 0 1 22%; }
+
+.category-text {
+  text-align: center; }
 
 .hero-banner {
   background: url("../../images/hero-bread.jpg") top center no-repeat #400c0d;
@@ -903,6 +909,19 @@ footer {
   font-size: 1rem;
   margin-left: 3rem; }
 
+.latest-blogs {
+  background-color: #fafafa;
+  border-bottom: 1px solid #e1e1e1;
+  border-top: 1px solid #e1e1e1;
+  padding: 3rem 0; }
+  .latest-blogs ul {
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-direction: row;
+        -ms-flex-direction: row;
+            flex-direction: row; }
+
 .hr-symbol {
   width: 20%; }
 
@@ -919,12 +938,6 @@ footer {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex; }
-
-.thumbnail-container {
-  height: 200px;
-  width: 200px;
-  overflow: hidden;
-  position: relative; }
 
 .about-section {
   display: -webkit-flex;

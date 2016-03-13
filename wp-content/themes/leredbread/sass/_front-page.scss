@@ -9,6 +9,9 @@
    display: flex;
    justify-content: center;
    margin: 0 auto;
+   margin-top: 3rem;
+   max-width: none;
+   width: 74rem;
 }
 
 .product-flex {
@@ -21,6 +24,9 @@
   flex: 0 1 22%;
 }
 
+.category-text {
+  text-align: center;
+}
 
 // HERO SECTION
 .hero-banner {
@@ -73,6 +79,19 @@
 
 // our latest news section
 
+.latest-blogs {
+  background-color: #fafafa;
+  border-bottom: 1px solid #e1e1e1;
+  border-top: 1px solid #e1e1e1;
+  padding: 3rem 0;
+
+  ul {
+    display: flex;
+    flex-direction: row;
+  }
+
+} //ends latest blogs
+
 .hr-symbol {
   width: 20%;
 }
@@ -92,9 +111,9 @@
   display: flex;
 }
 
-.thumbnail-container {
-  height: 200px;
-  width: 200px;
-  overflow: hidden;
-  position: relative;
-}
+// .thumbnail-container {
+//   height: 200px;
+//   width: 200px;
+//   overflow: hidden;
+//   position: relative;
+// }
