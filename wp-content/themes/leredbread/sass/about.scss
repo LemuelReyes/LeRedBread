@@ -1,10 +1,35 @@
+// the header text for each section
+.about-tagline {
+  padding-top: 3rem;
+  font-family: 'Overlock';
+  font-weight: bold;
+  font-style: lighter;
+  font-size: 2em;
+  margin-bottom: -0.9rem;
+}
+
+.about-sub-text {
+  margin-bottom: 2.9rem;
+}
+
+// this is the wrawpper for the about section
 .about-section {
   display: flex;
   justify-content: space-between;
   margin: 0 auto;
 }
 
+// these are the blocks of content
 .about-column-block {
   flex-basis: 47%;
   max-width: 30rem;
+
+  h2 {
+    margin: 0rem;
+  }
+}
+
+
+.contact-block {
+  padding: 3rem 0rem 5rem 0rem;
 }

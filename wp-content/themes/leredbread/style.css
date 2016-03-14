@@ -949,6 +949,17 @@ footer {
   overflow: hidden;
   position: relative; }
 
+.about-tagline {
+  padding-top: 3rem;
+  font-family: 'Overlock';
+  font-weight: bold;
+  font-style: lighter;
+  font-size: 2em;
+  margin-bottom: -0.9rem; }
+
+.about-sub-text {
+  margin-bottom: 2.9rem; }
+
 .about-section {
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -963,6 +974,11 @@ footer {
       -ms-flex-preferred-size: 47%;
           flex-basis: 47%;
   max-width: 30rem; }
+  .about-column-block h2 {
+    margin: 0rem; }
+
+.contact-block {
+  padding: 3rem 0rem 5rem 0rem; }
 
 .product-grid {
   display: -webkit-flex;

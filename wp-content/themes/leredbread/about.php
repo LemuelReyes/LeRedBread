@@ -9,8 +9,12 @@ get_header();
 
   <div id="primary" class="content-area">
     <main id="main" class="site-main" role="main">
-      <h2 class="flex-text-center"><?php echo CFS()->get( 'tagline' ); ?></h2>
-      <p class="flex-text-center">We are a team of creative and talented individuals who love making delicious treats.</p>
+      <h2 class="about-tagline flex-text-center"><?php echo CFS()->get( 'tagline' ); ?></h2>
+      <p class="flex-text-center about-sub-text">We are a team of creative and talented individuals who love making delicious treats.</p>
+
+      <hr class="hr-symbol" />
+
+      <div class="grey-dot"></div>
 
 
       <div class="about-section container">
@@ -19,6 +23,7 @@ get_header();
       <div class="about-column-block">
       <img src="<?php bloginfo( 'template_url' ); ?>/images/team.jpg" alt="Le Bread Team picture" class="team-picture"/>
       <h2>Le Red Bread Team</h2>
+      <span>Baking up a storm everyday</span>
       <?php echo CFS()->get( 'team_copy' ); ?>
       </div>
       <!--  Bakery section -->
@@ -26,6 +31,7 @@ get_header();
       <div class="about-column-block">
       <img src="<?php bloginfo( 'template_url' ); ?>/images/bakery.jpg" alt="picture of Le Bread facility" class="bakery-picture"/>
       <h2>Le Red Bread Bakery</h2>
+      <span>A home away from home.</span>
       <?php echo CFS()->get( 'bakery_copy' ); ?>
       </div>
       </div> <!-- ends about section class -->
@@ -38,6 +44,13 @@ get_header();
       </div>
       </section>
     </main>
+  </div>
+
+  <div class="products-flex contact-block">
+    <div class="products-bar">
+      <p>Feel free to contact us with any questions coments or suggestions. We even take custom orders!</p>
+      <button type="button" name="button" class="products-button">Contact Us</button>
+    </div>
   </div>
 
   <?php get_footer(); ?>
