@@ -40,12 +40,15 @@ get_header(); ?>
 					</div>
 			</section>
 
+
+			<div class="product-wrapper container">
+
 			<?php /* Start the Loop */ ?>
 			<?php while ( have_posts() ) : the_post(); ?>
 
-
       <!--  CREATE A PRODUCT SQUARE -->
 			<div class="product-grid">
+
       <?php if ( has_post_thumbnail() ) : ?>
         <?php the_post_thumbnail( 'medium' ); ?>
       <?php endif; ?>
@@ -54,11 +57,10 @@ get_header(); ?>
       <span><?php the_title() ?></span>
 
       <span><?php echo CFS()->get( 'price' ); ?></span>
-			</div>
-			</div> <!-- ends flex product description -->
-
+			</div> <!-- ends product description -->
+			</div> <!-- ends product grid-->
 			<?php endwhile; ?>
-
+		</div>
 			<?php the_posts_navigation(); ?>
 
 		<?php else : ?>
