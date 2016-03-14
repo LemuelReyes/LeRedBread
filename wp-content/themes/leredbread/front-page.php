@@ -39,7 +39,9 @@ get_header(); ?>
 			<div class="products-flex">
 				<div class="products-bar">
 					<p>All our products are made fresh daily from locally-sourced ingredients. Our menu is updated frequently.</p>
-					<button type="button" name="button" class="products-button">See Our Products</button>
+					<button type="button" name="button" class="products-button">
+						<a href="http://localhost:3000/leredbread/product/">See Our Products</a>
+				  </button>
 				</div>
 			</div>
 
@@ -58,6 +60,7 @@ get_header(); ?>
 										<div class="grey-dot"></div>
 
 							<!--  START OF LOOP -->
+							<div class="post-grid container">
 
 								<?php
 						          $args = array( 'post_type' => 'post',
@@ -66,8 +69,6 @@ get_header(); ?>
 						          $latest_posts = get_posts( $args );
 								?>
 
-
-								<div class="post-grid container">
 			          <?php foreach ($latest_posts as $post) :  setup_postdata ( $post ); ?>
 									<div class="blogpost-block">
 				              <!--  pictures  -->
@@ -75,7 +76,7 @@ get_header(); ?>
 											<li>
 												<div class="thumbnail-container">
 								              <?php if (has_post_thumbnail() ) : ?>
-								                <?php the_post_thumbnail( 'small' ); ?>
+								                <?php the_post_thumbnail( 'medium' ); ?>
 								              <?php endif; ?>
 												</div>
 

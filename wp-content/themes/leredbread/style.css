@@ -748,6 +748,14 @@ ul {
   width: 100%;
   box-shadow: 0 2px 0px 0 rgba(150, 150, 150, 0.25);
   padding-left: 13rem; }
+  .main-navigation a {
+    color: grey;
+    font-weight: bold; }
+  .main-navigation a:hover {
+    color: black; }
+
+.current_page_item a {
+  color: #400c0d; }
 
 .main-navigation ul li {
   border-left: 0.25px solid #e1e1e1;
@@ -925,7 +933,8 @@ footer {
   border: 1px lightgrey solid;
   background-color: #FAFAFA;
   height: 5em;
-  width: 75%; }
+  width: 75%;
+  margin: 4rem 0rem; }
 
 .products-button {
   background-color: #400c0d;
@@ -936,6 +945,9 @@ footer {
   color: white;
   font-size: 1rem;
   margin-left: 3rem; }
+  .products-button a {
+    color: white;
+    text-decoration: none; }
 
 .latest-blogs {
   background-color: #fafafa;
@@ -962,7 +974,8 @@ footer {
   display: flex;
   -webkit-flex-wrap: wrap;
       -ms-flex-wrap: wrap;
-          flex-wrap: wrap; }
+          flex-wrap: wrap;
+  margin: 0 auto; }
 
 .blogpost-block {
   -webkit-flex: 0 1 25%;
@@ -976,6 +989,8 @@ footer {
   height: 200px;
   overflow: hidden;
   position: relative; }
+  .thumbnail-container img {
+    height: 250px; }
 
 .about-tagline {
   padding-top: 3rem;

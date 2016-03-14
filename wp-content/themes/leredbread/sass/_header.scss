@@ -8,6 +8,20 @@
   width: 100%;
   box-shadow: 0 2px 0px 0 rgba(150,150,150,.25);
   padding-left: 13rem;
+
+   a {
+     color: grey;
+     font-weight: bold;
+   }
+
+   a:hover {
+     color: black;
+   }
+
+}
+
+.current_page_item a {
+    color: #400c0d;
 }
 
 //pads the nav
