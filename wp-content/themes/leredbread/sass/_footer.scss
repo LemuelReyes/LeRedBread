@@ -1,13 +1,50 @@
 footer {
   background-color: #222222;
   height: 33vh;
+
+  .contact-block {
+    padding: 1rem 0 0rem;
+  }
 }
 
 .column-block {
   display: flex;
   justify-content: space-around;
+
+   h3 {
+     color: grey;
+     text-transform: uppercase;
+   }
+
+   p {
+     color: white;
+   }
 }
 
 .footer-logo {
   width: 300px;
+}
+
+
+// social media
+
+.fa-envelope, .fa-phone, .fa-facebook-square, .fa-twitter-square, .fa-google-plus-square
+{
+  color: white;
+}
+
+.bizhours-block {
+  padding-top: 1rem;
+}
+
+.copyright-block {
+  height: 4.5rem;
+  background-color: #333333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+    span {
+      color: white;
+    }
 }

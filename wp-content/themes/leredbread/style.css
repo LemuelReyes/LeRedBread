@@ -804,6 +804,8 @@ ul {
 footer {
   background-color: #222222;
   height: 33vh; }
+  footer .contact-block {
+    padding: 1rem 0 0rem; }
 
 .column-block {
   display: -webkit-flex;
@@ -812,9 +814,35 @@ footer {
   -webkit-justify-content: space-around;
       -ms-flex-pack: distribute;
           justify-content: space-around; }
+  .column-block h3 {
+    color: grey;
+    text-transform: uppercase; }
+  .column-block p {
+    color: white; }
 
 .footer-logo {
   width: 300px; }
+
+.fa-envelope, .fa-phone, .fa-facebook-square, .fa-twitter-square, .fa-google-plus-square {
+  color: white; }
+
+.bizhours-block {
+  padding-top: 1rem; }
+
+.copyright-block {
+  height: 4.5rem;
+  background-color: #333333;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center; }
+  .copyright-block span {
+    color: white; }
 
 .flex-text-center {
   display: -webkit-flex;
