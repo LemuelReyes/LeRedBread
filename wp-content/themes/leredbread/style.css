@@ -831,7 +831,7 @@ footer {
 .footer-logo {
   width: 300px; }
 
-.fa-envelope, .fa-phone, .fa-facebook-square, .fa-twitter-square, .fa-google-plus-square {
+.envelope-footer, .fa-phone, .fa-facebook-square, .fa-twitter-square, .fa-google-plus-square {
   color: white; }
 
 .bizhours-block {

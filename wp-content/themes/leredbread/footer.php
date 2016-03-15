@@ -15,7 +15,7 @@
   	<div class="contact-block">
 			<h3>Contact</h3>
 			<p>
-					<i class="fa fa-envelope"></i>
+					<i class="fa fa-envelope envelope-footer"></i>
 					<a href="mailto:info@leredbread.com">info@leredbread.com</a>
 			</p>
 			<p>
