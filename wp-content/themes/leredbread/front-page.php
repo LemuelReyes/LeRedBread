@@ -103,6 +103,32 @@ get_header(); ?>
 						</section>	<!-- ends blog section -->
 
 
+										<!-- Testimonial section  -->
+
+					<div class="flex-text-center">
+						<h2 >What others say about us</h2>
+					</div>
+
+					<hr class="hr-symbol" />
+
+					<div class="grey-dot"></div>
+
+					<ul class="container testimonial-wrapper">
+						<li>
+							<img src="<?php bloginfo( 'template_url' ); ?>/images/dr-dosist-headshot.png" alt="Dr.Dosist headshot picture" class="testimonial-pictures"/>
+						</li>
+						<li>
+							<img src="<?php bloginfo( 'template_url' ); ?>/images/maxi-milli-headshot.png" alt="Maxi Milli headshot picture" class="testimonial-pictures"/>
+						</li>
+						<li>
+							<img src="<?php bloginfo( 'template_url' ); ?>/images/ana-vandana-headshot.png" alt="Ana Vandana headshot picture" class="testimonial-pictures"/>
+						</li>
+						<li>
+							<img src="<?php bloginfo( 'template_url' ); ?>/images/martha-m-masters-headshot.png" alt="Maxi Milli headshot picture" class="testimonial-pictures"/>
+						</li>
+					</ul>
+
+
 		</main><!-- #main -->
 	</div><!-- #primary -->
 <?php get_footer(); ?>

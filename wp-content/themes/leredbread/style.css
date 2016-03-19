@@ -992,6 +992,21 @@ footer {
   .thumbnail-container img {
     height: 250px; }
 
+.testimonial-pictures {
+  height: 100px; }
+
+.testimonial-wrapper {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+  margin: 0 auto; }
+
 .about-tagline {
   padding-top: 3rem;
   font-family: 'Overlock';

@@ -135,3 +135,17 @@ position: relative;
       height: 250px;
     }
 }
+
+
+// =============== Testimonial Section ====================
+
+.testimonial-pictures {
+  height: 100px;
+}
+
+.testimonial-wrapper {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: 0 auto;
+}
