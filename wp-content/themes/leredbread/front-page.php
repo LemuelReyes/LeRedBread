@@ -116,17 +116,39 @@ get_header(); ?>
 					<ul class="container testimonial-wrapper">
 						<li>
 							<img src="<?php bloginfo( 'template_url' ); ?>/images/dr-dosist-headshot.png" alt="Dr.Dosist headshot picture" class="testimonial-pictures"/>
+
+					<div class="review-block">
+								<p>Healthy food be damned! If you are a bakery and sweet addict like myself this place is life changing. So many goodies. Have a cheat day and eat all the pretzels!</p>
+								<p>Dr. Dosist</p>
+								<p>Nutritionist – Health Time Clinic</p>
+					</div>
 						</li>
 						<li>
 							<img src="<?php bloginfo( 'template_url' ); ?>/images/maxi-milli-headshot.png" alt="Maxi Milli headshot picture" class="testimonial-pictures"/>
+					<div class="review-block">
+							<p>Do you like bread? Seriously, who doesn’t? You have to check Le Red Bread’s lovely loaves. Fresh flavours every day…need I say more?</p>
+							<p>Maxi Milli</p>
+							<p>Chef – Sailor Spoon</p>
+					</div>
 						</li>
 						<li>
+					<div class="review-block">
 							<img src="<?php bloginfo( 'template_url' ); ?>/images/ana-vandana-headshot.png" alt="Ana Vandana headshot picture" class="testimonial-pictures"/>
+							<p>Excellent cookies! They always have unique flavours and the cookies are always super fresh. Make sure you get them before they sell out! And keep an eye out on holidays, the flavour combinations they come up with are brilliant. Delicious!</p>
+							<p>Anna Vandana</p>
+							<p>Author – Food Is Great Magazine</p>
+					</div>
 						</li>
 						<li>
+					<div class="review-block">
 							<img src="<?php bloginfo( 'template_url' ); ?>/images/martha-m-masters-headshot.png" alt="Maxi Milli headshot picture" class="testimonial-pictures"/>
+							<p>Where has this bakery been all my life! I absolutely love their cookies and muffins. Nom nom.</p>
+							<p>Martha M. Masters</p>
+							<p>Food Critic – WikiTravel</p>
+					</div>
 						</li>
 					</ul>
+
 
 
 		</main><!-- #main -->

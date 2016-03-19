@@ -1007,6 +1007,9 @@ footer {
           flex-wrap: wrap;
   margin: 0 auto; }
 
+.review-block {
+  max-width: 320px; }
+
 .about-tagline {
   padding-top: 3rem;
   font-family: 'Overlock';
