@@ -104,7 +104,7 @@ get_header(); ?>
 
 
 										<!-- Testimonial section  -->
-
+<section class="testimonial-section">
 					<div class="flex-text-center">
 						<h2 >What others say about us</h2>
 					</div>
@@ -132,22 +132,23 @@ get_header(); ?>
 					</div>
 						</li>
 						<li>
-					<div class="review-block">
 							<img src="<?php bloginfo( 'template_url' ); ?>/images/ana-vandana-headshot.png" alt="Ana Vandana headshot picture" class="testimonial-pictures"/>
+					<div class="review-block">
 							<p>Excellent cookies! They always have unique flavours and the cookies are always super fresh. Make sure you get them before they sell out! And keep an eye out on holidays, the flavour combinations they come up with are brilliant. Delicious!</p>
 							<p>Anna Vandana</p>
 							<p>Author – Food Is Great Magazine</p>
 					</div>
 						</li>
 						<li>
-					<div class="review-block">
 							<img src="<?php bloginfo( 'template_url' ); ?>/images/martha-m-masters-headshot.png" alt="Maxi Milli headshot picture" class="testimonial-pictures"/>
+					<div class="review-block">
 							<p>Where has this bakery been all my life! I absolutely love their cookies and muffins. Nom nom.</p>
 							<p>Martha M. Masters</p>
 							<p>Food Critic – WikiTravel</p>
 					</div>
 						</li>
 					</ul>
+</section>
 
 
 

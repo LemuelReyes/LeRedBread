@@ -139,8 +139,27 @@ position: relative;
 
 // =============== Testimonial Section ====================
 
+.testimonial-section {
+
+   li:first-child {
+     border-right: 1px dashed #d2d2d2;
+     border-bottom: 1px dashed #d2d2d2;
+   }
+
+  li:nth-child(2) {
+    border-bottom: 1px dashed #d2d2d2;
+  }
+
+  li:nth-child(3) {
+    border-right: 1px dashed #d2d2d2;
+  }
+
+}
+
 .testimonial-pictures {
   height: 100px;
+  width: 100px;
+  margin-right: 2rem;
 }
 
 .testimonial-wrapper {
@@ -148,6 +167,14 @@ position: relative;
   justify-content: space-between;
   flex-wrap: wrap;
   margin: 0 auto;
+
+  li {
+
+    flex: 1 0 50%;
+    display: flex;
+    padding: 1.5rem;
+    max-width: 50%;
+  }
 }
 
 .review-block {
