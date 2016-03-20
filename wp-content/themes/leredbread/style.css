@@ -1109,3 +1109,27 @@ footer {
 
 .flex-product-description {
   padding: 0.8rem; }
+
+article {
+  width: 75%;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center; }
+
+.blog-post-wrapper {
+  max-width: 693px; }
+  .blog-post-wrapper a {
+    color: #db272a;
+    text-decoration: none; }
+
+.widget-area {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column-reverse;
+      -ms-flex-direction: column-reverse;
+          flex-direction: column-reverse;
+  width: 25%; }
