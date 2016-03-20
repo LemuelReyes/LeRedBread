@@ -471,7 +471,11 @@ input[type="email"] {
   display: flex;
   -webkit-flex-wrap: wrap;
       -ms-flex-wrap: wrap;
-          flex-wrap: wrap; }
+          flex-wrap: wrap;
+  width: 100%; }
+
+.contact-subject {
+  width: 100%; }
 
 /*--------------------------------------------------------------
 # Navigation
