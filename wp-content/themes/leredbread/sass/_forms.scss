@@ -42,6 +42,7 @@ textarea {
 	color: #666;
 	border: 1px solid #ccc;
 	border-radius: 3px;
+	background-color: #FAFAFA;
 
 	&:focus {
 		color: #111;
@@ -53,7 +54,7 @@ input[type="email"],
 input[type="url"],
 input[type="password"],
 input[type="search"] {
-	padding: 3px;
+	padding: 8px;
 }
 
 textarea {
@@ -65,10 +66,25 @@ textarea {
 
 // overriding values written above by way of specificity
 input[type=search] {
-
 	border: none;
 }
 
 fieldset {
 	border: none;
+}
+
+// styles contact form
+
+.contact-wrapper {
+	max-width: 1025px;
+}
+
+input[type="email"] {
+	margin-left: 1rem;
+}
+
+
+.name-and-email {
+	display: flex;
+	flex-wrap: wrap;
 }
