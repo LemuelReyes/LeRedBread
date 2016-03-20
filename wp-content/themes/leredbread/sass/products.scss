@@ -1,3 +1,12 @@
+
+// the header title
+.page-title {
+  padding-top: 3rem;
+  text-transform: uppercase;
+}
+
+
+//grid section
 .product-wrapper {
   display: flex;
   flex-wrap: wrap;
@@ -9,4 +18,12 @@
   border: 1px solid #e1e1e1;
   flex: 0 1 25%;
   max-width: 25%;
+}
+
+.product-flex {
+  padding-top: 3rem;
+
+  h3 {
+    text-align: center;
+  }
 }

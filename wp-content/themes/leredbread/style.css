@@ -1062,6 +1062,10 @@ footer {
 .contact-block {
   padding: 3rem 0rem 5rem 0rem; }
 
+.page-title {
+  padding-top: 3rem;
+  text-transform: uppercase; }
+
 .product-wrapper {
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -1078,3 +1082,8 @@ footer {
       -ms-flex: 0 1 25%;
           flex: 0 1 25%;
   max-width: 25%; }
+
+.product-flex {
+  padding-top: 3rem; }
+  .product-flex h3 {
+    text-align: center; }
