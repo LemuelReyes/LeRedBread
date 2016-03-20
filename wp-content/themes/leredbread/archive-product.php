@@ -56,6 +56,8 @@ get_header(); ?>
 			<div class="flex-product-description">
       <span><?php the_title() ?></span>
 
+			<span>.......</span>
+
       <span><?php echo CFS()->get( 'price' ); ?></span>
 			</div> <!-- ends product description -->
 			</div> <!-- ends product grid-->
