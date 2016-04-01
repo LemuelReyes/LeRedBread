@@ -26,10 +26,20 @@
 
   h2 {
     margin: 0rem;
+    @include capitalize-text;
   }
 }
 
-
 .contact-block {
   padding: 3rem 0rem 5rem 0rem;
+
+  button {
+    @include capitalize-text;
+  }
+}
+
+.story-section {
+  h2 {
+    @include capitalize-text;
+  }
 }

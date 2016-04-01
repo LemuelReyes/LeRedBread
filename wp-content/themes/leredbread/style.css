@@ -1088,10 +1088,16 @@ footer {
           flex-basis: 47%;
   max-width: 30rem; }
   .about-column-block h2 {
-    margin: 0rem; }
+    margin: 0rem;
+    text-transform: capitalize; }
 
 .contact-block {
   padding: 3rem 0rem 5rem 0rem; }
+  .contact-block button {
+    text-transform: capitalize; }
+
+.story-section h2 {
+  text-transform: capitalize; }
 
 .page-title {
   padding-top: 3rem;

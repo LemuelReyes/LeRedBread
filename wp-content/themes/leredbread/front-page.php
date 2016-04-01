@@ -40,7 +40,7 @@ get_header(); ?>
 				<div class="products-bar">
 					<p>All our products are made fresh daily from locally-sourced ingredients. Our menu is updated frequently.</p>
 					<button type="button" name="button" class="products-button">
-						<a href="http://localhost:3000/leredbread/product/">See Our Products</a>
+						<a href="http://localhost:3000/leredbread/product/">see our products</a>
 				  </button>
 				</div>
 			</div>

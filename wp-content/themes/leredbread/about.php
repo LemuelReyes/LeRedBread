@@ -22,7 +22,7 @@ get_header();
       <!-- Team section  -->
       <div class="about-column-block">
       <img src="<?php bloginfo( 'template_url' ); ?>/images/team.jpg" alt="Le Bread Team picture" class="team-picture"/>
-      <h2>Le Red Bread Team</h2>
+      <h2>le red bread team</h2>
       <span>Baking up a storm everyday</span>
       <?php echo CFS()->get( 'team_copy' ); ?>
       </div>
@@ -30,16 +30,16 @@ get_header();
 
       <div class="about-column-block">
       <img src="<?php bloginfo( 'template_url' ); ?>/images/bakery.jpg" alt="picture of Le Bread facility" class="bakery-picture"/>
-      <h2>Le Red Bread Bakery</h2>
+      <h2>le red bread bakery</h2>
       <span>A home away from home.</span>
       <?php echo CFS()->get( 'bakery_copy' ); ?>
       </div>
       </div> <!-- ends about section class -->
 
       <!--  Story Section -->
-      <section class="flex-middle">
+      <section class="flex-middle story-section">
       <div class="container">
-        <h2 class="flex-text-center">Our Story</h2>
+        <h2 class="flex-text-center">our story</h2>
       <?php echo CFS()->get( 'our_story_copy' ); ?>
       </div>
       </section>
@@ -49,7 +49,7 @@ get_header();
   <div class="products-flex contact-block">
     <div class="products-bar">
       <p>Feel free to contact us with any questions coments or suggestions. We even take custom orders!</p>
-      <button type="button" name="button" class="products-button">Contact Us</button>
+      <button type="button" name="button" class="products-button">contact us</button>
     </div>
   </div>
 
