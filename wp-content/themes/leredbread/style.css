@@ -967,7 +967,8 @@ footer {
   margin-left: 3rem; }
   .products-button a {
     color: white;
-    text-decoration: none; }
+    text-decoration: none;
+    text-transform: capitalize; }
 
 .latest-blogs {
   background-color: #fafafa;
@@ -1056,7 +1057,10 @@ footer {
 .review-block {
   max-width: 320px; }
   .review-block p:nth-child(2) {
-    font-weight: bold; }
+    font-weight: bold;
+    text-transform: capitalize; }
+  .review-block p:nth-child(3) {
+    text-transform: capitalize; }
 
 .about-tagline {
   padding-top: 3rem;

@@ -119,32 +119,32 @@ get_header(); ?>
 
 					<div class="review-block">
 								<p>Healthy food be damned! If you are a bakery and sweet addict like myself this place is life changing. So many goodies. Have a cheat day and eat all the pretzels!</p>
-								<p><span>Dr. Dosist</span></p>
-								<p>Nutritionist – Health Time Clinic</p>
+								<p>dr. dosist</p>
+								<p>nutritionist – health time clinic</p>
 					</div>
 						</li>
 						<li>
 							<img src="<?php bloginfo( 'template_url' ); ?>/images/maxi-milli-headshot.png" alt="Maxi Milli headshot picture" class="testimonial-pictures"/>
 					<div class="review-block">
 							<p>Do you like bread? Seriously, who doesn’t? You have to check Le Red Bread’s lovely loaves. Fresh flavours every day…need I say more?</p>
-							<p><span>Maxi Milli</span></p>
-							<p>Chef – Sailor Spoon</p>
+							<p>maxi milli</p>
+							<p>chef – sailor spoon</p>
 					</div>
 						</li>
 						<li>
 							<img src="<?php bloginfo( 'template_url' ); ?>/images/ana-vandana-headshot.png" alt="Ana Vandana headshot picture" class="testimonial-pictures"/>
 					<div class="review-block">
 							<p>Excellent cookies! They always have unique flavours and the cookies are always super fresh. Make sure you get them before they sell out! And keep an eye out on holidays, the flavour combinations they come up with are brilliant. Delicious!</p>
-							<p><span>Anna Vandana</span></p>
-							<p>Author – Food Is Great Magazine</p>
+							<p>anna vandana</p>
+							<p>author – food is great magazine</p>
 					</div>
 						</li>
 						<li>
 							<img src="<?php bloginfo( 'template_url' ); ?>/images/martha-m-masters-headshot.png" alt="Maxi Milli headshot picture" class="testimonial-pictures"/>
 					<div class="review-block">
 							<p>Where has this bakery been all my life! I absolutely love their cookies and muffins. Nom nom.</p>
-							<p><span>Martha M. Masters</span></p>
-							<p>Food Critic – WikiTravel</p>
+							<p>martha m. masters</p>
+							<p>food critic – wikiTravel</p>
 					</div>
 						</li>
 					</ul>

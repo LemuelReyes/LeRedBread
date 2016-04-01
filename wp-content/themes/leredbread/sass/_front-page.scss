@@ -79,6 +79,7 @@
     a {
       color: white;
       text-decoration: none;
+      @include capitalize-text;
     }
 }
 
@@ -189,5 +190,10 @@ position: relative;
   max-width: 320px;
   p:nth-child(2)  {
     @include bolden-text;
+    @include capitalize-text;
+  }
+
+  p:nth-child(3) {
+    @include capitalize-text;
   }
 }
