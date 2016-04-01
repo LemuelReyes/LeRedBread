@@ -432,8 +432,7 @@ input[type="search"],
 textarea {
   color: #666;
   border: 1px solid #ccc;
-  border-radius: 3px;
-  background-color: #FAFAFA; }
+  border-radius: 3px; }
   input[type="text"]:focus,
   input[type="email"]:focus,
   input[type="url"]:focus,
@@ -445,8 +444,7 @@ textarea {
 input[type="text"],
 input[type="email"],
 input[type="url"],
-input[type="password"],
-input[type="search"] {
+input[type="password"] {
   padding: 8px; }
 
 textarea {
@@ -855,6 +853,8 @@ footer {
 
 .bizhours-block {
   padding-top: 1rem; }
+  .bizhours-block span {
+    font-weight: bold; }
 
 .copyright-block {
   height: 4.5rem;
@@ -906,7 +906,8 @@ footer {
           flex: 0 1 22%; }
 
 .category-text {
-  text-align: center; }
+  text-align: center;
+  text-transform: uppercase; }
 
 .hero-banner {
   background: url("../../images/hero-bread.jpg") top center no-repeat #400c0d;
@@ -973,6 +974,8 @@ footer {
   border-bottom: 1px solid #e1e1e1;
   border-top: 1px solid #e1e1e1;
   padding: 3rem 0; }
+  .latest-blogs h2 {
+    text-transform: uppercase; }
 
 .hr-symbol {
   width: 20%; }
@@ -1021,6 +1024,9 @@ footer {
 .testimonial-section li:nth-child(3) {
   border-right: 1px dashed #d2d2d2; }
 
+.testimonial-section h2 {
+  text-transform: uppercase; }
+
 .testimonial-pictures {
   height: 100px;
   width: 100px;
@@ -1049,6 +1055,8 @@ footer {
 
 .review-block {
   max-width: 320px; }
+  .review-block p:nth-child(2) {
+    font-weight: bold; }
 
 .about-tagline {
   padding-top: 3rem;
@@ -1129,7 +1137,8 @@ article {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  -webkit-flex-direction: column-reverse;
-      -ms-flex-direction: column-reverse;
-          flex-direction: column-reverse;
-  width: 25%; }
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 25%;
+  border-left: 1px solid grey; }

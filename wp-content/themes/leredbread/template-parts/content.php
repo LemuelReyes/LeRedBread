@@ -7,6 +7,7 @@
 
 ?>
 
+
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 	<div class="blog-post-wrapper">
 	<header class="entry-header">

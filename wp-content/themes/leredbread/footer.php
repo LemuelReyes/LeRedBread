@@ -13,7 +13,7 @@
 
 		<!--  contact block, left -->
   	<div class="contact-block">
-			<h3>Contact</h3>
+			<h3>contact</h3>
 			<p>
 					<i class="fa fa-envelope envelope-footer"></i>
 					<a href="mailto:info@leredbread.com">info@leredbread.com</a>
@@ -39,10 +39,10 @@
 
 		<div class="column-block">
       <div class="bizhours-block">
-			<h3>Business Hours</h3>
-        <p>Monday-Friday: 9am to 5pm</p>
-        <p>Saturday: 10am to 2pm</p>
-        <p>Sunday: Closed</p>
+			<h3>business hours</h3>
+        <p><span>Monday-Friday</span>: 9am to 5pm</p>
+        <p><span>Saturday</span>: 10am to 2pm</p>
+        <p><span>Sunday</span>: Closed</p>
       </div>
 		</div>
 		</footer>
@@ -53,27 +53,3 @@
 
 	</body>
 </html>
-
-<!--
-<div footer-blocks container>
-
-	<div footer-block-item>
-		<div class="contact">
-
-			<h3>Contact</h3>
-			<p>
-					<i class="fa fa-envelope">
-					<a href="mailto:info@leredbread.com">info@leredbread.com</a>
-			</p>
-			<p>
-					<i class="fa fa-phone">
-					<a href="5553434567891">(555) 343 456 7891</a>
-						</p>
-			<p>
-					<span><i class="fa fa-facebook-square"</span>
-					<span><i class="fa fa-twitter-square"</span>
-					<span><i class="fa fa-google-plus-square"</span>
-			</p>
-		</div>
-	</div>
-</div> -->

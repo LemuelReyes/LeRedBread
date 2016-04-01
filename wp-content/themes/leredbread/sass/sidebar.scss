@@ -1,5 +1,6 @@
 .widget-area {
   display: flex;
-  flex-direction: column-reverse;
+  flex-direction: column;
   width: 25%;
+  border-left: 1px solid grey;
 }

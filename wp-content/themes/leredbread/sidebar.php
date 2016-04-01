@@ -12,11 +12,13 @@ if ( ! is_active_sidebar( 'sidebar-1' ) ) {
 
 <div id="secondary" class="widget-area" role="complementary">
 
+<div>
 	<h2>Contact info</h2>
 <p>(555) 343 456 7891</p>
 <p>info@leredbread.com</p>
 <p>123 Hastings Street</p>
 <p>Vancouver, BC V61 2T9, CA</p>
+</div>
 
 	<?php dynamic_sidebar( 'sidebar-1' ); ?>
 </div><!-- #secondary -->

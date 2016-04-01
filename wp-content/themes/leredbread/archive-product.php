@@ -17,6 +17,8 @@ get_header(); ?>
 					the_archive_title( '<h1 class="page-title flex-text-center">', '</h1>' );
 					the_archive_description( '<div class="taxonomy-description">', '</div>' );
 				?>
+				<p class="flex-text-center about-sub-text">We are a team of creative and talented individuals who love making delicious treats.</p>
+
 			</header><!-- .page-header -->
 
 			<hr class="hr-symbol" />

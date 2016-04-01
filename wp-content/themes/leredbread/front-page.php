@@ -52,7 +52,7 @@ get_header(); ?>
 
 
 								<div class="flex-text-center">
-														<h2>Our Latest News</h2>
+														<h2>our latest news</h2>
 								</div>
 
 									<hr class="hr-symbol" />
@@ -119,7 +119,7 @@ get_header(); ?>
 
 					<div class="review-block">
 								<p>Healthy food be damned! If you are a bakery and sweet addict like myself this place is life changing. So many goodies. Have a cheat day and eat all the pretzels!</p>
-								<p>Dr. Dosist</p>
+								<p><span>Dr. Dosist</span></p>
 								<p>Nutritionist – Health Time Clinic</p>
 					</div>
 						</li>
@@ -127,7 +127,7 @@ get_header(); ?>
 							<img src="<?php bloginfo( 'template_url' ); ?>/images/maxi-milli-headshot.png" alt="Maxi Milli headshot picture" class="testimonial-pictures"/>
 					<div class="review-block">
 							<p>Do you like bread? Seriously, who doesn’t? You have to check Le Red Bread’s lovely loaves. Fresh flavours every day…need I say more?</p>
-							<p>Maxi Milli</p>
+							<p><span>Maxi Milli</span></p>
 							<p>Chef – Sailor Spoon</p>
 					</div>
 						</li>
@@ -135,7 +135,7 @@ get_header(); ?>
 							<img src="<?php bloginfo( 'template_url' ); ?>/images/ana-vandana-headshot.png" alt="Ana Vandana headshot picture" class="testimonial-pictures"/>
 					<div class="review-block">
 							<p>Excellent cookies! They always have unique flavours and the cookies are always super fresh. Make sure you get them before they sell out! And keep an eye out on holidays, the flavour combinations they come up with are brilliant. Delicious!</p>
-							<p>Anna Vandana</p>
+							<p><span>Anna Vandana</span></p>
 							<p>Author – Food Is Great Magazine</p>
 					</div>
 						</li>
@@ -143,7 +143,7 @@ get_header(); ?>
 							<img src="<?php bloginfo( 'template_url' ); ?>/images/martha-m-masters-headshot.png" alt="Maxi Milli headshot picture" class="testimonial-pictures"/>
 					<div class="review-block">
 							<p>Where has this bakery been all my life! I absolutely love their cookies and muffins. Nom nom.</p>
-							<p>Martha M. Masters</p>
+							<p><span>Martha M. Masters</span></p>
 							<p>Food Critic – WikiTravel</p>
 					</div>
 						</li>

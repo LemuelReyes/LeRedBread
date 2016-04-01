@@ -26,6 +26,7 @@
 
 .category-text {
   text-align: center;
+  @include all-caps-text;
 }
 
 // HERO SECTION
@@ -90,6 +91,10 @@
   border-bottom: 1px solid #e1e1e1;
   border-top: 1px solid #e1e1e1;
   padding: 3rem 0;
+
+  h2 {
+    @include all-caps-text;
+  }
 }
 
 // line decoration
@@ -141,7 +146,7 @@ position: relative;
 
 .testimonial-section {
 
-   li:first-child {
+  li:first-child {
      border-right: 1px dashed #d2d2d2;
      border-bottom: 1px dashed #d2d2d2;
    }
@@ -154,6 +159,9 @@ position: relative;
     border-right: 1px dashed #d2d2d2;
   }
 
+   h2 {
+     @include all-caps-text;
+   }
 }
 
 .testimonial-pictures {
@@ -179,4 +187,7 @@ position: relative;
 
 .review-block {
   max-width: 320px;
+  p:nth-child(2)  {
+    @include bolden-text;
+  }
 }

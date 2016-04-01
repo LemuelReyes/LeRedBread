@@ -13,7 +13,7 @@ footer {
 
    h3 {
      color: grey;
-     text-transform: uppercase;
+     @include all-caps-text;
    }
 
    p {
@@ -35,6 +35,10 @@ footer {
 
 .bizhours-block {
   padding-top: 1rem;
+
+  span {
+  @include bolden-text;
+  }
 }
 
 .copyright-block {
