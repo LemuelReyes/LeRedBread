@@ -52,7 +52,7 @@ get_header(); ?>
 			<div class="product-grid">
 
       <?php if ( has_post_thumbnail() ) : ?>
-        <?php the_post_thumbnail( 'medium' ); ?>
+        <a href="<?php the_permalink(); ?>"> <?php the_post_thumbnail( 'medium' ); ?></a>
       <?php endif; ?>
 
 			<div class="flex-product-description">

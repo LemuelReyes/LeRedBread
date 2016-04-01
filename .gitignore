@@ -49,7 +49,7 @@ wp-content/*
 # ========================================================== #
 wp-content/plugins/*
 !wp-content/plugins/lrb-functionality/
-wp-content/plugins/business-hours-widget/
+!wp-content/plugins/business-hours-widget/
 
 # Ignore everything in "themes" except the active theme. #
 # ========================================================== #
