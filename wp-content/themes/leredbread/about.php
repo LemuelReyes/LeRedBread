@@ -21,7 +21,8 @@ get_header();
 
       <!-- Team section  -->
       <div class="about-column-block">
-      <img src="<?php bloginfo( 'template_url' ); ?>/images/team.jpg" alt="Le Bread Team picture" class="team-picture"/>
+      <img src="<?php echo get_template_directory_uri() . '/images\/team.jpg' ?>" alt="Le Bread Team Staff picture" class="team-picture" />
+
       <h2>le red bread team</h2>
       <span>Baking up a storm everyday</span>
       <?php echo CFS()->get( 'team_copy' ); ?>
@@ -29,7 +30,8 @@ get_header();
       <!--  Bakery section -->
 
       <div class="about-column-block">
-      <img src="<?php bloginfo( 'template_url' ); ?>/images/bakery.jpg" alt="picture of Le Bread facility" class="bakery-picture"/>
+      <img src="<?php echo get_template_directory_uri() . '/images\/bakery.jpg' ?>" alt="picture of Le Bread facility" class="bakery-picture"/>
+
       <h2>le red bread bakery</h2>
       <span>A home away from home.</span>
       <?php echo CFS()->get( 'bakery_copy' ); ?>
