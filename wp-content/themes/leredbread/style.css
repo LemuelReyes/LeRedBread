@@ -1151,4 +1151,5 @@ article {
       -ms-flex-direction: column;
           flex-direction: column;
   width: 25%;
+  padding-left: 2rem;
   border-left: 1px solid grey; }
