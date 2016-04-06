@@ -1,6 +1,6 @@
 # PROJECT 5 - Le Red Bread
 
-##Summary:
+###Summary:
 
 A bakery website using Wordpress.
 
@@ -10,7 +10,7 @@ A bakery website using Wordpress.
 - Search results page
 - 404 page
 
-##Tools, methods, and dev environment utilized to accomplish finished product:
+###Tools, methods, and dev environment utilized to accomplish finished product:
 
 - PHP
 - HTML and CSS
@@ -23,7 +23,7 @@ A bakery website using Wordpress.
 - DEBUG BAR
 - TASK RUNNERS > GULP, SASS, AND BROWSER-SYNC
 
-##Experience on working on this project:
+###Experience on working on this project:
 
 I've built Wordpress websites before, using templates and plugins without the coding, but nothing like this before.
 I've learnt the power of Wordpress and now understand why it is the most popular CMS out there.  
